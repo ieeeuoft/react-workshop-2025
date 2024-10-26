@@ -26,9 +26,9 @@ We build the following Apps as Milestones
 
    Check that these commands work:
 
-   node -v
+   `node -v`
 
-   npm -v
+   `npm -v`
 
 
 

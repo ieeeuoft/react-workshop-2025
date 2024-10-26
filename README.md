@@ -18,12 +18,11 @@ We build the following Apps as Milestones
 7. Create an account at https://manage.exchangeratesapi.io
 8. Navigate to https://manage.exchangeratesapi.io/dashboard, you should see your API access key. This key is confidential, **DO NOT SHARE IT WITH ANYONE OR COMMIT IT TO A GITHUB!!!** We'll be using this key later
 
-Please create your own account from that website and replace the API key in `workshop/my-project/app/exchange/page.tsx` with your own access key!!! Otherwise, the App may fail if the given API access key limit is reached
+<img width="841" alt="Screenshot 2024-10-26 at 08 58 46" src="https://github.com/user-attachments/assets/f665888c-2ab0-4b99-84c2-3eb43ca59279">
 
-To navigate to the `solution` branch, run `git solution exchange`
 
 ## 2. Repo structure
-The repository has four branches - `master`, `HTML`, `counter`, `exchange`, and `password`. Each branch corresponds to a milestone for the workshop
+The repository has four branches - `master`, `counter`, and `solution`. Each branch corresponds to a milestone for the workshop
 
 
 #### The `master` branch
@@ -49,13 +48,16 @@ To navigate to the `counter` branch, run `git checkout counter`
 
 
 ### The `solution` branch
-The `solution` branch primarily serves as a solution reference to the workshop. It contains the code of everything we built during the workshop. If you run `npm run dev`, you should see the following page and be able to navigate around the counter, exchange rate App, and the home page.
+The `solution` branch primarily serves as a solution reference to the workshop. It contains the code of everything we built during the workshop. 
+
+To use the solution code
+1. Copy your own API access key from https://manage.exchangeratesapi.io/dashboard
+2. Inside your working directory (`React_workshop`), create a file called `.env.local`
+3. Inside the file, add the following line `NEXT_PUBLIC_API_KEY = your API access key`. Replace `your API access key` with your own API access key
+
+Now, if you run `npm run dev`, you should see the following page and be able to navigate around the counter, exchange rate App, and the home page.
 
 <img width="811" alt="Screenshot 2024-10-23 at 17 02 36" src="https://github.com/user-attachments/assets/7cb3478f-62bf-4dc5-a552-d19da7f775f0">
-
-The API used for the exchange rate App is from - https://manage.exchangeratesapi.io
-
-Please create your own account from that website and replace the API key in `workshop/my-project/app/exchange/page.tsx` with your own access key!!! Otherwise, the App may fail if the given API access key limit is reached
 
 To navigate to the `solution` branch, run `git solution exchange`
 

@@ -42,7 +42,8 @@ To navigate to the `master` branch, run `git checkout master`
 ### The `counter` branch
 The `counter` branch contains the counter App. If you run `npm run dev`, you should see the home page and be able to navigate to the counter. You can play around with the counter!
 
-<img width="897" alt="Screenshot 2024-10-23 at 17 06 21" src="https://github.com/user-attachments/assets/33897b59-59c0-4565-83f4-473e1298e94c">
+<img width="1426" alt="Screenshot 2024-10-26 at 11 19 53" src="https://github.com/user-attachments/assets/620678a4-99ba-4bf3-a888-4654e056ac7d">
+
 
 To navigate to the `counter` branch, run `git checkout counter`
 
@@ -57,7 +58,7 @@ To use the solution code
 
 Now, if you run `npm run dev`, you should see the following page and be able to navigate around the counter, exchange rate App, and the home page.
 
-<img width="811" alt="Screenshot 2024-10-23 at 17 02 36" src="https://github.com/user-attachments/assets/7cb3478f-62bf-4dc5-a552-d19da7f775f0">
+<img width="843" alt="Screenshot 2024-10-26 at 11 20 36" src="https://github.com/user-attachments/assets/edfa8576-d965-4ae3-9ed1-9b5bb5807963">
 
 To navigate to the `solution` branch, run `git solution exchange`
 
@@ -70,8 +71,8 @@ The final App should have the following pages
 <img width="908" alt="Screenshot 2024-10-26 at 08 47 31" src="https://github.com/user-attachments/assets/6cb0df51-4685-4f4e-a2dd-1314f669587d">
 
 * Counter
-<img width="1394" alt="Screenshot 2024-10-25 at 14 11 31" src="https://github.com/user-attachments/assets/f41d93e3-5fee-4f01-a090-962635f662c5">
+<img width="1410" alt="Screenshot 2024-10-26 at 11 21 12" src="https://github.com/user-attachments/assets/7636e12b-6d3e-4466-aad9-a17734c88bee">
 
 * Exchange rate App
-<img width="1416" alt="Screenshot 2024-10-25 at 14 12 36" src="https://github.com/user-attachments/assets/3ae2c74c-a827-4b15-85a3-806fb41b19f2">
+<img width="1414" alt="Screenshot 2024-10-26 at 11 21 33" src="https://github.com/user-attachments/assets/e8885e56-f11a-4f05-9db1-c899dd05402d">
 

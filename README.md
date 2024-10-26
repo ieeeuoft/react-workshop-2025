@@ -15,6 +15,12 @@ We build the following Apps as Milestones
 4. Run `cd React_workshop`
 5. Run `npm install`
 6. Run `npm run dev`. You should be able to see the App at http://localhost:3000 after running this command
+7. Create an account at https://manage.exchangeratesapi.io
+8. Navigate to https://manage.exchangeratesapi.io/dashboard, you should see your API access key. This key is confidential, **DO NOT SHARE IT WITH ANYONE OR COMMIT IT TO A GITHUB!!!** We'll be using this key later
+
+Please create your own account from that website and replace the API key in `workshop/my-project/app/exchange/page.tsx` with your own access key!!! Otherwise, the App may fail if the given API access key limit is reached
+
+To navigate to the `solution` branch, run `git solution exchange`
 
 ## 2. Repo structure
 The repository has four branches - `master`, `HTML`, `counter`, `exchange`, and `password`. Each branch corresponds to a milestone for the workshop
@@ -35,7 +41,7 @@ To navigate to the `master` branch, run `git checkout master`
 
 
 ### The `counter` branch
-The `counter` branch contains the counter App. If you run `npm run dev`, you should see the following page. You can play around with the counter!
+The `counter` branch contains the counter App. If you run `npm run dev`, you should see the home page and be able to navigate to the counter. You can play around with the counter!
 
 <img width="897" alt="Screenshot 2024-10-23 at 17 06 21" src="https://github.com/user-attachments/assets/33897b59-59c0-4565-83f4-473e1298e94c">
 

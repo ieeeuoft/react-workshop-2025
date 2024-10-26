@@ -1,4 +1,4 @@
-# React Workshop Guild
+# React Workshop Guide
 This repo contains all the resources we used during the frontend workshop for IEEE Newhacks 2024
 
 We build the following Apps as Milestones
@@ -6,7 +6,23 @@ We build the following Apps as Milestones
 * Milestone 1: Counter using React and style it using Tailwind CSS
 * Milestone 2: Exchange rate App by fetching API
 
-##  1. Node.js Installation
+## 1. Git/GitHub Installation & Setup
+   Step 1. Download Git: go to https://git-scm.com/downloads and Download the version compatible with your operating system (Windows, macOS, or Linux)
+
+   Step 2: Install Git 
+   * Windows: Open the downloaded .exe file. Follow the installation wizard steps. Use default settings if unsure.
+   * macOS: Install using Homebrew (recommended) by running `brew install git`. Alternatively, open the downloaded .dmg file and follow the instructions
+     
+   Step 3: Configure Git: open your terminal or command prompt
+   * Set your Git username: `bash git config --global user.name "Your Name"`
+   * Set your email:  `bash git config --global user.email "your.email@example.com"`
+
+   Step 4: Setup Github
+   * Create a GitHub account https://github.com/ 
+   * Click "Sign up" and follow the steps to create an account 
+
+
+##  2. Node.js Installation
 1. Download Node.js
 
    Visit the official Node.js website (https://nodejs.org)
@@ -32,7 +48,7 @@ We build the following Apps as Milestones
 
 
 
-## 2. Setup
+## 3. Setup
 1. Create a new folder on your laptop
 2. `cd` into the new folder
 3. Run `git clone https://github.com/guaaaaa/React_workshop.git`
@@ -45,7 +61,7 @@ We build the following Apps as Milestones
 <img width="841" alt="Screenshot 2024-10-26 at 08 58 46" src="https://github.com/user-attachments/assets/f665888c-2ab0-4b99-84c2-3eb43ca59279">
 
 
-## 3. Repo structure
+## 4. Repo structure
 The repository has four branches - `master`, `counter`, and `solution`. Each branch corresponds to a milestone for the workshop
 
 
@@ -87,7 +103,7 @@ Now, if you run `npm run dev`, you should see the following page and be able to 
 To navigate to the `solution` branch, run `git solution exchange`
 
 
-## 4. Final project
+## 5. Final project
 
 The final App should have the following pages
 

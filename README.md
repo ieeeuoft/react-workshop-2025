@@ -3,12 +3,35 @@ This repo contains all the resources we used during the frontend workshop for IE
 
 We build the following Apps as Milestones
 
-* Milestone 1: A counter in HTML (Only the structure, the counter does not work!)
-* Milestone 2: Counter using React and style it using Tailwind CSS
-* Milestone 3: Exchange rate App by fetching API
+* Milestone 1: Counter using React and style it using Tailwind CSS
+* Milestone 2: Exchange rate App by fetching API
+
+##  1. Node.js Installation
+1. Download Node.js
+
+Visit the official Node.js website (https://nodejs.org)
+
+Download the LTS version
+
+Make sure the operating system you select is correct!
 
 
-## 1. Setup
+2. Install Node.js
+Windows: Run the download installer. Follow the installation wizard. Ensure you have selected the option to install Node.js and npm (Node Package Manager)
+
+Mac: Open the downloaded .pkg file. Follow the prompts to complete the installation
+
+3. Make sure that Node.js is installed properly
+
+Check that these commands work:
+
+node -v
+
+npm -v
+
+
+
+## 2. Setup
 1. Create a new folder on your laptop
 2. `cd` into the new folder
 3. Run `git clone https://github.com/guaaaaa/React_workshop.git`
@@ -21,7 +44,7 @@ We build the following Apps as Milestones
 <img width="841" alt="Screenshot 2024-10-26 at 08 58 46" src="https://github.com/user-attachments/assets/f665888c-2ab0-4b99-84c2-3eb43ca59279">
 
 
-## 2. Repo structure
+## 3. Repo structure
 The repository has four branches - `master`, `counter`, and `solution`. Each branch corresponds to a milestone for the workshop
 
 
@@ -63,7 +86,7 @@ Now, if you run `npm run dev`, you should see the following page and be able to 
 To navigate to the `solution` branch, run `git solution exchange`
 
 
-## 3. Final project
+## 4. Final project
 
 The final App should have the following pages
 

@@ -9,25 +9,26 @@ We build the following Apps as Milestones
 ##  1. Node.js Installation
 1. Download Node.js
 
-Visit the official Node.js website (https://nodejs.org)
+   Visit the official Node.js website (https://nodejs.org)
 
-Download the LTS version
+   Download the LTS version
 
-Make sure the operating system you select is correct!
+   Make sure the operating system you select is correct!
 
 
 2. Install Node.js
-Windows: Run the download installer. Follow the installation wizard. Ensure you have selected the option to install Node.js and npm (Node Package Manager)
 
-Mac: Open the downloaded .pkg file. Follow the prompts to complete the installation
+   Windows: Run the download installer. Follow the installation wizard. Ensure you have selected the option to install Node.js and npm (Node Package Manager)
+
+   Mac: Open the downloaded .pkg file. Follow the prompts to complete the installation
 
 3. Make sure that Node.js is installed properly
 
-Check that these commands work:
+   Check that these commands work:
 
-node -v
+   node -v
 
-npm -v
+   npm -v
 
 
 

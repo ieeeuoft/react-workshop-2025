@@ -2,12 +2,6 @@
 import { useState } from "react";
 import Link from "next/link";
 
-async function fetcher() {
-    const response = await fetch(`https://api.exchangeratesapi.io/v1/latest?access_key=${process.env.NEXT_PUBLIC_API_KEY}`);
-    const data = await response.json(); // Convert the response to JSON
-    return data.rates; // Return the rates object
-}
-
 export default function Home() {
     const [count, setCount] = useState(0);
     const [usd, setUSD] = useState(0);
@@ -15,7 +9,9 @@ export default function Home() {
     const [gbp, setGBP] = useState(0);
 
     const handleFetch = async () => {
-        const rates = await fetcher(); // Fetch the data when the button is clicked
+        const response = await fetch(`https://api.exchangeratesapi.io/v1/latest?access_key=${process.env.NEXT_PUBLIC_API_KEY}`);
+        const data = await response.json(); // Convert the response to JSON
+        const rates = data.rates; // Fetch the data when the button is clicked
         console.log(rates);
         setUSD(rates.USD);
         setCAD(rates.CAD);

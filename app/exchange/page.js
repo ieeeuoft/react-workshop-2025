@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 
 async function fetcher() {
@@ -14,17 +14,14 @@ export default function Home() {
     const [cad, setCAD] = useState(0);
     const [gbp, setGBP] = useState(0);
 
-    useEffect(() => {
-        const getData = async () => {
-            const rates = await fetcher(); // Wait for the promise to resolve
-            console.log(rates);
-            setUSD(rates.USD);
-            setCAD(rates.CAD);
-            setGBP(rates.GBP);
-        };
-
-        getData(); // Call the async function
-    }, [count]);
+    const handleFetch = async () => {
+        const rates = await fetcher(); // Fetch the data when the button is clicked
+        console.log(rates);
+        setUSD(rates.USD);
+        setCAD(rates.CAD);
+        setGBP(rates.GBP);
+        setCount(count + 1); // Increase count when the fetch is completed
+    };
 
     return (
         <div className="h-screen w-screen bg-pink-400 flex justify-center items-center relative">
@@ -32,7 +29,7 @@ export default function Home() {
 
             <div className="flex flex-col justify-center items-center text-center">
                 <h1 className="text-5xl mb-4">You fetched {count} times</h1>
-                <button className="border-2 p-3 mb-6" onClick={() => setCount(count + 1)}>
+                <button className="border-2 p-3 mb-6" onClick={handleFetch}>
                     Get
                 </button>
 

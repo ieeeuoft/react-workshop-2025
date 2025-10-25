@@ -9,9 +9,9 @@ export default function Home() {
     const [gbp, setGBP] = useState(0);
 
     const handleFetch = async () => {
-        const response = await fetch(`https://api.exchangeratesapi.io/v1/latest?access_key=${process.env.NEXT_PUBLIC_API_KEY}`);
+        const response = await fetch(`https://v6.exchangerate-api.com/v6/${process.env.NEXT_PUBLIC_EXCHANGE_RATE_API_KEY}/latest/USD`);
         const data = await response.json(); // Convert the response to JSON
-        const rates = data.rates; // Fetch the data when the button is clicked
+        const rates = data.conversion_rates; // Fetch the data when the button is clicked
         console.log(rates);
         setUSD(rates.USD);
         setCAD(rates.CAD);
@@ -30,10 +30,10 @@ export default function Home() {
                 </button>
 
                 <div className="text-2xl">
-                    <h1>BASE: EUR</h1>
-                    <h1>1 EUR = {usd} USD</h1>
-                    <h1>1 EUR = {cad} CAD</h1>
-                    <h1>1 EUR = {gbp} GBP</h1>
+                    <h1>BASE: USD</h1>
+                    <h1>1 USD = {cad} CAD</h1>
+                    <h1>1 USD = {gbp} GBP</h1>
+                    <h1>1 USD = {usd} USD</h1>
                 </div>
             </div>
         </div>

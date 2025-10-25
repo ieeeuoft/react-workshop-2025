@@ -55,10 +55,10 @@ We build the following Apps as Milestones
 4. Run `cd React_workshop`
 5. Run `npm install`
 6. Run `npm run dev`. You should be able to see the App at http://localhost:3000 after running this command
-7. Create an account at https://manage.exchangeratesapi.io
-8. Navigate to https://manage.exchangeratesapi.io/dashboard, you should see your API access key. This key is confidential, **DO NOT SHARE IT WITH ANYONE OR COMMIT IT TO A GITHUB!!!** We'll be using this key later
+7. Create an account at https://app.exchangerate-api.com/ 
+8. Navigate to https://app.exchangerate-api.com/dashboard, you should see your API access key. This key is confidential, **DO NOT SHARE IT WITH ANYONE OR COMMIT IT TO A GITHUB!!!** We'll be using this key later
 
-<img width="841" alt="Screenshot 2024-10-26 at 08 58 46" src="https://github.com/user-attachments/assets/f665888c-2ab0-4b99-84c2-3eb43ca59279">
+<img width="630" height="73" alt="Screenshot 2025-10-25 at 10 21 15" src="https://github.com/user-attachments/assets/f3b4328f-69c0-455a-a265-46e153462506" />
 
 
 ## 4. Repo structure
